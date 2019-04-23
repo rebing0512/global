@@ -1,0 +1,28 @@
+{
+    "name": "rebing0512/global",
+    "description": "Global Class Packages",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "rebing0512",
+            "email": "rebing@aliyun.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rebing0512\\Global\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rebing0512\\Global\\ServiceProvider"
+            ]
+        }
+    }
+}
